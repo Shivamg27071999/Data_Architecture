@@ -1,0 +1,47 @@
+# Credit Card Spending Analysis — India
+
+This repository contains SQL queries to analyze credit card transaction data from [Kaggle: *Analyzing Credit Card Spending Habits in India*](https://www.kaggle.com/datasets/thedevastator/analyzing-credit-card-spending-habits-in-india).
+
+## 📊 Dataset
+
+- The dataset provides anonymized credit card transactions in India.
+- Key columns include:
+  - `city` — the city of transaction  
+  - `transaction_date` — date of transaction  
+  - `card_type` — the type of credit card used  
+  - `exp_type` — type of expense (e.g., “bills,” “fuel,” etc.)  
+  - `gender` — gender of cardholder  
+  - `amount` — transaction amount  
+- Source: Kaggle `thedevastator/analyzing-credit-card-spending-habits-in-india`
+
+## 🔍 SQL Analysis Queries
+
+The SQL script `credit_card_analysis_queries.sql` (or similar filename) includes queries to answer important business/analytical questions, such as:
+
+1. **Top 5 cities by credit card spending** and their percentage contribution to total spend.  
+2. **Highest spend month** for each card type.  
+3. **Transaction when cumulative spend crosses ₹ 10,00,000** for each card type (first crossing).  
+4. **City with the lowest total spend** for the “Gold” card type.  
+5. For each **city**, identify the **highest** and **lowest** expense types.  
+6. **Percentage contribution of women** in spending for each expense type.  
+7. **Card & expense type combo** that saw the **highest month-over-month growth** in January 2014.  
+8. During **weekends**, which city has the **highest spend-to-transaction ratio**.  
+9. Which city took the **least number of days** to reach its **500th transaction** since the first transaction.
+
+## ✅ How to Run
+
+1. Download the dataset from Kaggle.  
+2. Load `credit_card_transactions.csv` (or equivalent) into your SQL database (SQL Server, MySQL, etc.).  
+3. Run the SQL script `credit_card_analysis_queries.sql` on the table created from the dataset.  
+4. Review the results to gain insights into spending behaviors.
+
+## 💡 Use Cases
+
+- **Data Analytics / BI**: Use these queries for dashboards or reports on spending behavior.  
+- **Credit Card Risk / Business Teams**: Understand which cities, card types, or expense categories are driving spend.  
+- **Learning / Practice**: Useful for SQL learners exploring aggregation, window functions, ranking, and time-series analysis.
+
+## 📚 References
+
+- Kaggle dataset: *Analyzing Credit Card Spending Habits in India*  
+- Related project: SQL-based credit card analysis by other data practitioners. :contentReference[oaicite:0]{index=0}  
