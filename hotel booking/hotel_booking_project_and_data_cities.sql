@@ -1,0 +1,22 @@
+﻿CREATE TABLE cities(id DOUBLE,city VARCHAR(10),state VARCHAR(10));
+INSERT INTO cities (id,city,state) VALUES 
+(1,'Agra','UP'),
+(2,'Aligarh','UP'),
+(3,'Amritsar','Punjab'),
+(4,'Bangalore','Karnataka'),
+(5,'Chennai','TN'),
+(6,'Delhi','Delhi'),
+(7,'Goa','Goa'),
+(8,'Hyderabad','Telangana'),
+(9,'Indore','MP'),
+(10,'Jaipur','Rajasthan'),
+(11,'Kanpur','UP'),
+(12,'Kochi','Kerala'),
+(13,'Mangalore','Karnataka'),
+(14,'Mumbai','Maharastra'),
+(15,'Mysore','Karnataka'),
+(16,'Noida','UP'),
+(17,'Patna','Bihar'),
+(18,'Pune','Maharastra'),
+(19,'Raipur','Chhattisgarh'),
+(20,'Udupi','Karnataka');
